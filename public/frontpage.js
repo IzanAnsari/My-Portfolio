@@ -33,6 +33,12 @@ function erase() {
     }
 }
 
+ // toggle menu/navbar script
+ $('.menu-btn').click(function(){
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
+});
+
 
 
 setTimeout(type, 500);
